@@ -19,7 +19,7 @@
             pernikahan putra dan putri kami
         </p>
 
-        <h1>Gusti</h1>
+        <h1>John</h1>
         <p>
             putra pertama Bapak <br>
             dan Ibu
@@ -27,7 +27,7 @@
 
         <h2>&</h2>
 
-        <h1>Azwa</h1>
+        <h1>Jane</h1>
         <p>
             putri pertama Bapak <br>
             dan Ibu
@@ -42,15 +42,41 @@
         <h3>15.00 WIB</h3>
         <h2>JULI 2025</h2>
 
-        <p>Jalan Bunga, Pekanbaru</p>
+        <a href="https://www.google.com/maps/search/?api=1&query=Jalan+Bunga,+Pekanbaru" target="_blank"
+            class="location-btn">Buka di Maps</a>
+
+        <hr>
+
+        <h3>Aturan Acara</h3>
+        <ul class="event-list">
+            <li><strong>Dresscode:</strong> Pakaian bernuansa Putih/Beige</li>
+            <li><strong>Anak-anak:</strong> Dimohon untuk tidak membawa balita</li>
+            <li><strong>Hadiah:</strong> Tersedia kotak amplop di lokasi</li>
+        </ul>
+
+        <hr>
+
+        <h3>RSVP Kehadiran</h3>
+        <form class="rsvp-form" onsubmit="event.preventDefault(); alert('RSVP Berhasil Dikirim!');">
+            <input type="text" placeholder="Nama Lengkap" required>
+            <select required>
+                <option value="" disabled selected>Apakah Anda akan hadir?</option>
+                <option value="hadir">Ya, Saya Akan Hadir</option>
+                <option value="tidak_hadir">Maaf, Tidak Bisa Hadir</option>
+            </select>
+            <input type="number" placeholder="Jumlah Tamu" min="1" max="5">
+            <button type="submit" class="rsvp-btn">KIRIM RSVP</button>
+        </form>
+
+        <hr>
 
         <p class="salam">Wassalamu'alaikum warahmatullahi wabarakatuh</p>
 
         <div class="footer">
             <p>Kami yang Berbahagia,</p>
             <p>
-                Kel. Besar Gusti<br>
-                Kel. Besar Azwa
+                Kel. Besar John<br>
+                Kel. Besar Jane
             </p>
         </div>
 
